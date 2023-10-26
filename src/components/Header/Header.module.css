@@ -1,0 +1,36 @@
+.HeaderBlock {
+    width: 100%;
+    margin-top: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogotypeContent h1 {
+    color: #F14929;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.BlockBtn__RandomRenerate .BtnGenerate {
+    width: 50px;
+    height: 50px; 
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #F14929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BlockBtn__RandomRenerate .BtnGenerate img {
+    transition: .4s ease;
+}
+
+.BlockBtn__RandomRenerate .BtnGenerate:hover img {
+    transform: rotate(360deg);
+}

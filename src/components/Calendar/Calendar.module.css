@@ -1,0 +1,104 @@
+.CalendarBlock {
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 950px;
+}
+
+.CalendarLabelBlock {
+    width: 100%;
+    height: 100px;
+    background: #F14929; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;   
+    border-radius: 20px 20px 5px 5px;
+}
+
+.CalendarLabelBlock h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.BtnsPaginations {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 29px;
+}
+
+.BtnsPaginations button.BtnsPagination {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GridBoxBlock {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 300px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.CardBlock {
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    border-top: 2px solid #190000;
+    padding: 10px;
+    transition: .2s ease;
+}
+
+.CardBlock .LabelBlock {
+    margin-top: 17px;
+    color: #190000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.CardBlock p {
+    margin-top: 10px;
+    color: #190000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.CardBlock .DateLabel {
+    color: #190000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    transition: .2s ease;
+}
+
+.CardBlock:hover {
+    background: #F1ECEC; 
+}
+
+.CardBlock:hover .DateLabel {
+    color: #F14929;
+}
+
+.CardBlock:hover {
+    border-color: #F14929;
+}
+
+a {
+    text-decoration: none;
+}
