@@ -5,7 +5,7 @@
 .CalendarLabelBlock {
     width: 100%;
     height: 100px;
-    background: #500805; 
+    background: #660000; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,11 +90,11 @@
 }
 
 .CardBlock:hover .DateLabel {
-    color: #500805;
+    color: #660000;
 }
 
 .CardBlock:hover {
-    border-color: #500805;
+    border-color: #660000;
 }
 
 a {
