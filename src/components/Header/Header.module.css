@@ -8,7 +8,7 @@
 }
 
 .LogotypeContent h1 {
-    color: #F14929;
+    color: #500805;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -21,7 +21,7 @@
     border: none;
     outline: none;
     border-radius: 10px;
-    background: #F14929;
+    background: #500805;
     display: flex;
     justify-content: center;
     align-items: center;
