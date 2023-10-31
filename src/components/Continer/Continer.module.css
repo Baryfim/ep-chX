@@ -2,3 +2,22 @@
     max-width: 1220px;
     margin: 0 auto;
 }
+
+
+@media screen and (min-width: 0px) {
+    .Continer {
+        max-width: 364px;
+    }    
+}
+
+@media screen and (min-width: 1000px) {
+    .Continer {
+        max-width: 944px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .Continer {
+        max-width: 1220px;
+    }
+}

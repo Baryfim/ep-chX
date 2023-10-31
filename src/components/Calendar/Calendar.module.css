@@ -1,7 +1,5 @@
 .CalendarBlock {
-    margin: 0 auto;
-    margin-top: 80px;
-    max-width: 950px;
+    margin: 80px auto;
 }
 
 .CalendarLabelBlock {
@@ -45,25 +43,25 @@
 .GridBoxBlock {
     margin-top: 10px;
     width: 100%;
-    min-height: 300px;
+    min-height: 350px;
     display: grid;
-    gap: 50px;
+    gap: auto;
     grid-template-columns: repeat(4,1fr);
 }
 
 .CardBlock {
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
     flex-shrink: 0;
     border-top: 2px solid #190000;
-    padding: 10px;
+    padding: 15px;
     transition: .2s ease;
 }
 
 .CardBlock .LabelBlock {
     margin-top: 17px;
     color: #190000;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal; 
@@ -72,7 +70,7 @@
 .CardBlock p {
     margin-top: 10px;
     color: #190000;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal; 
@@ -80,7 +78,7 @@
 
 .CardBlock .DateLabel {
     color: #190000;
-    font-size: 28px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: normal; 
@@ -101,4 +99,153 @@
 
 a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 0px) {
+    .GridBoxBlock {
+        margin-top: 10px;
+        width: 100%;
+        min-height: 270px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .CardBlock {
+        width: 170px;
+        height: 270px;
+        flex-shrink: 0;
+        border-top: 2px solid #190000;
+        padding: 10px;
+        transition: .2s ease;
+    }
+    
+    .CardBlock .LabelBlock {
+        margin-top: 15px;
+        color: #190000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+    
+    .CardBlock p {
+        margin-top: 10px;
+        color: #190000;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+    
+    .CardBlock .DateLabel {
+        color: #190000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        transition: .2s ease;
+    }    
+}
+
+@media screen and (min-width: 1000px) {
+    .GridBoxBlock {
+        margin-top: 10px;
+        width: 100%;
+        min-height: 300px;
+        display: grid;
+        gap: 45px;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .CardBlock {
+        width: 200px;
+        height: 300px;
+        flex-shrink: 0;
+        border-top: 2px solid #190000;
+        padding: 10px;
+        transition: .2s ease;
+    }
+    
+    .CardBlock .LabelBlock {
+        margin-top: 17px;
+        color: #190000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+    
+    .CardBlock p {
+        margin-top: 10px;
+        color: #190000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+    
+    .CardBlock .DateLabel {
+        color: #190000;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        transition: .2s ease;
+    }    
+}
+
+@media screen and (min-width: 1250px) {
+    .GridBoxBlock {
+        margin-top: 10px;
+        width: 100%;
+        min-height: 350px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .CardBlock {
+        width: 250px;
+        height: 350px;
+        flex-shrink: 0;
+        border-top: 2px solid #190000;
+        padding: 15px;
+        transition: .2s ease;
+    }
+    .CardBlock {
+        width: 250px;
+        height: 350px;
+        flex-shrink: 0;
+        border-top: 2px solid #190000;
+        padding: 15px;
+        transition: .2s ease;
+    }
+    
+    .CardBlock .LabelBlock {
+        margin-top: 17px;
+        color: #190000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+    
+    .CardBlock p {
+        margin-top: 10px;
+        color: #190000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+    
+    .CardBlock .DateLabel {
+        color: #190000;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        transition: .2s ease;
+    }
+    
 }
