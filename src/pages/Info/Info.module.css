@@ -120,6 +120,9 @@
     .LeftImages img {
         width: 160px;
     }
+    .LeftImages img {
+        height: 160px;
+    }
     .InfoBlocks .InfoTextBlock,
     .InfoBlocks .InfoImagesBlock {
         width: 100%;
