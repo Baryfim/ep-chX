@@ -21,7 +21,7 @@ const Info = () => {
     return (
         <Continer>
             <h1 className={classes.InfoBlockTitle}>
-                EpochX
+                МомантX
             </h1>
             {cards.map((card) => (
                 String(card.id) === id ? (
