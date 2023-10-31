@@ -90,11 +90,11 @@
 }
 
 .CardBlock:hover .DateLabel {
-    color: #F14929;
+    color: #500805;
 }
 
 .CardBlock:hover {
-    border-color: #F14929;
+    border-color: #500805;
 }
 
 a {
