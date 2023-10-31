@@ -1,5 +1,5 @@
 .InfoBlockTitle {
-    color: #F14929;
+    color: #500805;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -58,7 +58,7 @@
     width: 160px;
     height: 50px; 
     border-radius: 10px;
-    background: #F14929; 
+    background: #500805; 
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -69,7 +69,7 @@
 
 .LinkBlock {
     margin-left: 30px;
-    color: #F14929;
+    color: #500805;
     font-family: Unbounded; 
     font-size: 20px;
     font-style: normal;
