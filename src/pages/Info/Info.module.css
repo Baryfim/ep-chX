@@ -1,5 +1,5 @@
 .InfoBlockTitle {
-    color: #660000;
+    color: #600;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -38,6 +38,7 @@
     line-height: normal; 
 }
 
+
 .NameBlockLabel {
     color: #190000;
     font-size: 32px;
@@ -58,7 +59,7 @@
     width: 160px;
     height: 50px; 
     border-radius: 10px;
-    background: #660000; 
+    background: #600; 
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -69,7 +70,7 @@
 
 .LinkBlock {
     margin-left: 30px;
-    color: #660000;
+    color: #600;
     font-family: Unbounded; 
     font-size: 20px;
     font-style: normal;
@@ -95,4 +96,195 @@
 
 .RightImages {
     margin-top: 70px;
+}
+
+.BtnsBlocks {
+    display: block;
+}
+
+
+
+
+@media screen and (min-width: 0px) {
+    .InfoBlocks {
+        display: block;
+    }
+    .RightImages {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .RightImages img,
+    .LeftImages img {
+        width: 160px;
+    }
+    .InfoBlocks .InfoTextBlock,
+    .InfoBlocks .InfoImagesBlock {
+        width: 100%;
+    }
+    .BtnsBlocks {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .LinkBlock {
+        margin-left: 0;
+        margin-bottom: 55px;
+    }
+    .MainBtn {
+        margin-bottom: 15px;
+    }
+    .NameBlockLabel {
+        font-size: 28px;
+    }
+    .DateLabel {
+        font-size: 40px;
+    }
+    .InfoTextBlock .InfoText__data {
+        color: #190000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .InfoTextBlock .InfoText__data {
+        color: #190000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        margin-bottom: 30px;
+    }
+
+    .RightImages img,
+    .LeftImages img {
+        width: 200px;
+    }
+    .BtnsBlocks {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .LinkBlock {
+        margin-left: 0;
+    }
+    .MainBtn {
+        margin-bottom: 25px;
+    }
+    .InfoBlocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .InfoBlockTitle {
+        color: #600;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        margin-top: 70px;
+    }
+    
+    .InfoBlocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .InfoBlocks .InfoTextBlock {
+        width: calc(50% - 50px);
+    }
+    
+    .InfoTextBlock .InfoText__data {
+        color: #190000;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        margin-bottom: 30px;
+    }
+    
+    .InfoBlocks .InfoImagesBlock {
+        width: calc(50% - 50px);
+    }
+    
+    .DateLabel {
+        color: #190000;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+    }
+    
+    
+    .NameBlockLabel {
+        color: #190000;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+        margin-bottom: 45px;
+    }
+    
+    .InfoBlocks {
+        margin-top: 80px;
+    }
+    
+    .MainBtn {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        width: 160px;
+        height: 50px; 
+        border-radius: 10px;
+        background: #600; 
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        margin-bottom: 45px;
+    }
+    
+    .LinkBlock {
+        margin-left: 30px;
+        color: #600;
+        font-family: Unbounded; 
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline; 
+    }
+    
+    .InfoImagesBlock {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    
+    .RightImages,
+    .LeftImages {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .RightImages {
+        margin-top: 70px;
+    }    
+
+    .BtnsBlocks {
+        display: block;
+    }
 }
