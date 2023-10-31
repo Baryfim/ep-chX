@@ -44,7 +44,7 @@ const Info = () => {
                         <div className={classes.InfoImagesBlock}>
                             <div className={classes.LeftImages}>
                                 {card.leftImages.map((image, index) => (
-                                    <img src={image} key={index} width={256} alt={image} />
+                                    <img src={image} key={index} width={256} height={200} alt={image} />
                                 ))}
                             </div>
                             <div className={classes.RightImages}>
