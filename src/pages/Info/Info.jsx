@@ -2,9 +2,10 @@ import classes from "./Info.module.css";
 import { useEffect, useState } from "react";
 import CardsServices from "../../API/cardsService";
 import Continer from "../../components/Continer/Continer";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Info = () => {
+    const navigate = useNavigate()
     const [cards, setCards] = useState([]);
     const HrefItems = window.location.href.split("/");
     const id = HrefItems[HrefItems.length - 1];
@@ -33,7 +34,7 @@ const Info = () => {
                                 {card.text}
                             </p>
                             <div className={classes.BtnsBlocks}>
-                                <button className={classes.MainBtn} onClick={() => window.location.href = "/"}>
+                                <button className={classes.MainBtn} onClick={() => navigate("/")}>
                                     Галоўная
                                 </button>
                                 <Link to={card.Link} className={classes.LinkBlock}>
