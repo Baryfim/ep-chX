@@ -1,12 +1,13 @@
 import classes from "./Calendar.module.css";
 import ArrowLeft from "../../media/icons/fi-rr-angle-left.svg";
 import ArrowRight from "../../media/icons/fi-rr-angle-right.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import YearsServices from "../../API/yearsService";
 import CardsServices from "../../API/cardsService";
 
 const Calendar = (props) => {
+    const navigate = useNavigate()
     const [page, setPage] = useState(1);
     const [cards, setCards] = useState([]);
     const [years, setYears] = useState([1941]);
@@ -39,7 +40,7 @@ const Calendar = (props) => {
         <div className={classes.CalendarBlock}>
             {
                 props.value !== 0
-                ? (window.location.href = "/info/" + props.value)
+                ? (navigate("/info/" + props.value))
                 : ""
             }
             <div className={classes.CalendarLabelBlock}>
