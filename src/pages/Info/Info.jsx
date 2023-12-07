@@ -22,7 +22,7 @@ const Info = () => {
     return (
         <Continer>
             <h1 className={classes.InfoBlockTitle}>
-                МомантX
+                Каляндар вайны
             </h1>
             {cards.map((card) => (
                 String(card.id) === id ? (
