@@ -131,7 +131,7 @@ a {
     .CardBlock p {
         margin-top: 10px;
         color: #190000;
-        font-size: 10px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
         line-height: normal; 
@@ -178,7 +178,7 @@ a {
     .CardBlock p {
         margin-top: 10px;
         color: #190000;
-        font-size: 12px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: normal; 
@@ -222,7 +222,7 @@ a {
     }
     
     .CardBlock .LabelBlock {
-        margin-top: 17px;
+        margin-top: 18px;
         color: #190000;
         font-size: 20px;
         font-style: normal;
@@ -233,7 +233,7 @@ a {
     .CardBlock p {
         margin-top: 10px;
         color: #190000;
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal; 
