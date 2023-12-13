@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&display=swap');
+@font-face {
+  font-family: futur;
+  src: url(futur.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'futur', sans-serif;
 }
 
 h1, h2 {
