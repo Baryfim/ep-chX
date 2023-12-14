@@ -66,6 +66,9 @@
     font-weight: 600;
     line-height: normal; 
     margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .LinkBlock {
