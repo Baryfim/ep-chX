@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&display=swap');
-@font-face {
-  font-family: Hagrid;
-  src: url(Cygre-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hagrid', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h1, h2 {
