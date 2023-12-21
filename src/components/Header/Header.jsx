@@ -12,7 +12,7 @@ const Header = (props) => {
     return (
         <header className={classes.HeaderBlock}>
             <div className={classes.LogotypeContent}>
-                <h1>Каляндар вайны</h1>
+                <h1>МомантХ</h1>
             </div>
             <div className={classes.BlockBtn__RandomRenerate}>
                 <button className={classes.BtnGenerate} onClick={() => props.callback(generateRandomNumber())}>
