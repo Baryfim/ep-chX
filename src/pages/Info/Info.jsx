@@ -41,6 +41,7 @@ const Info = () => {
                                     Больш інфармацыі
                                 </Link>
                             </div>
+                            <br />
                         </div>
                         <div className={classes.InfoImagesBlock}>
                             <div className={classes.LeftImages}>
